@@ -1,0 +1,136 @@
+.login-main-page {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #EEEEEE;
+    overflow: hidden;
+}
+.login-main-page .mess {
+    padding: 20px;
+    margin-top: 0;
+    text-align: center;
+    color: #476072 ;
+    font-family: Hervetica;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.login-main-page .ballroom {
+    width: 75%;
+    height: 80vh;
+}
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 450px;
+    background: #476072;
+    border-radius: 10px;
+
+}
+
+.login-box .title-img {
+    display: flex;
+    flex: 100%;
+    font-family: Hervetica;
+    border-bottom: 2px solid #EEEEEE;
+    color: #EEEEEE;
+    padding-top: 10px;
+}
+
+.login-box .title-img .avatar {
+    display: flex;
+    flex: 50%;
+    width: 70px;
+    height: 70px;
+}
+.login-box .title-img h1{
+    display: flex;
+    flex: 50%;
+}
+
+.login-box form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .txt-field {
+    position: relative;
+    border-bottom: 2px solid #EEEEEE;
+    margin: 30px 0;
+}
+
+.txt-field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    font-family: Hervetica;
+    color: #EEEEEE;
+}
+
+.txt-field label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-family: Hervetica;
+    font-size: 16px;
+    color: #EEEEEE;
+    transition: .5s;
+    transform: translateY(-50%);
+}
+
+.txt-field span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #EEEEEE;
+}
+
+.txt-field input:focus ~ label,
+.txt-field input:valid ~ label {
+    top: -5px;
+    color: #EEEEEE;
+}
+
+.txt-field input:focus ~ span::before,
+.txt-field input:focus ~ span::before {
+    width: 100%;
+}
+
+.login-button {
+    width: 100%;
+    background: #EEEEEE;
+    border: 2px solid;
+    border-radius: 10px;
+    height: 30px;
+    outline: none;
+    font-size: 16px;
+    font-family: Hervetica;
+    color: #476072;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 30px 0 30px 0;
+}
+
+.login-button:hover {
+    border-color: #548CA8;
+    transition: .5s;
+}
+
+.signup-link {
+    color: #EEEEEE;
+    font-family: Hervetica;
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0;
+}

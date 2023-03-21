@@ -1,0 +1,45 @@
+.info-worker {
+    text-align: center;
+    background-color: #476072;
+    font-size: 18px;
+    color: #EEEEEE;
+    height: 40px;
+}
+
+.contact-list-workers {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    background: #476072;
+    white-space: nowrap;
+    height: 100vw;
+    overflow-y: hidden;
+}
+
+.contact-list-workers::-webkit-scrollbar {
+    height: 30px;
+}
+
+.contact-list-workers::-webkit-scrollbar-corner{
+   background-color: #476072;
+}
+
+.contact-list-workers::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.contact-list-workers::-webkit-scrollbar-thumb {
+    visibility: hidden;
+}
+
+.item-worker {
+    padding: 10px;
+}
+
+.card-worker {
+    width: 250px;
+    height: 400px;
+    padding: 10px;
+}

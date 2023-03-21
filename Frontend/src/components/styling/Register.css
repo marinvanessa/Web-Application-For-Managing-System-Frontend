@@ -1,0 +1,9 @@
+.register-main-page .register-button {
+    color: #EEEEEE;
+    font-family: Hervetica;
+    font-size: 14px;
+    height: 30px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+}

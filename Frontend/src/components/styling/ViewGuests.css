@@ -1,0 +1,56 @@
+.info-guest {
+    text-align: center;
+    background-color: #476072;
+    font-size: 18px;
+    color: #EEEEEE;
+    height: 40px;
+}
+
+.contact-list {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    background: #476072;
+    white-space: nowrap;
+    height: 100vw;
+    overflow-y: hidden;
+}
+
+.contact-list::-webkit-scrollbar {
+    height: 30px;
+}
+
+.contact-list::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.contact-list::-webkit-scrollbar-thumb {
+    visibility: hidden;
+}
+
+.item-contact {
+    padding: 10px;
+}
+
+.card-contact {
+    width: 250px;
+    height: 400px;
+    padding: 10px;
+}
+
+.bttns-contact {
+    display: inline;
+}
+
+.bttn-contact-me {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.bttn-contact-me1 {
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 20px;
+}

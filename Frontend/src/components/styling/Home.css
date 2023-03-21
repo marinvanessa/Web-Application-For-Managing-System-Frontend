@@ -1,0 +1,21 @@
+.home-page {
+    width: 100%;
+    height: 100%;
+    background: #476072;
+}
+
+.home-page h1 {
+    font-family: Hervetica;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+.home-page h2 {
+    font-family: Hervetica;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+.home-page .bttn-log {
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+.dialog-add-r .diag-r-content .select-hall{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-top: 10px;
+    color: gray;
+    font-family: Hervetica;
+    font-size: 20px;
+}
+.select_label {
+    margin-top: 20px;
+}
